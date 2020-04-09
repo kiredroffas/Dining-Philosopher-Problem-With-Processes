@@ -1,6 +1,6 @@
 /* Erik Safford
  * Dining Philosophers Problem using IPC Semaphores
- * CS 360 - Spring 2019  */
+ * Spring 2019  */
 
 #include <stdio.h>
 #include <stdlib.h>
