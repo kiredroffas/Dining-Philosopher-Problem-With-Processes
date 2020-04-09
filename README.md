@@ -15,6 +15,7 @@
 * A function called randomGaussian() is used to generate random thinking/eating times for each philosopher. The mean eating times are 9 and 11 seconds, with standard deviations of 3 and 7 seconds. If randomGaussian() returns a negative number as a time value, it is changed to 0.
 * Chopsticks are represented with an array of IPC semaphores, each representing one chopstick.
 * Program output includes the eating and thinking time of each philospher respectively, a message is printed once a philospher is done eating.
+* To avoid deadlock, one of the five phosophers picks up the chopsticks in a different order. I.e. instead of picking up left then right, he picks up right then left.
 * A colored implementation is available to see visualize the different philosphers better.
 * A DEBUG flag is included to see certain semaphore/chopstick output between each process, and can be set by changing the the define value to 1 (initially 0).
 ## Screenshots
